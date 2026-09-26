@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top:56px;
+  overflow-x:visible;
+  
+  background-color: #f8f7fc;
+  font-family: Arial, sans-serif;
+  color: #212529;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(59, 23, 109, 0.08);
+}
+
+.card {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
