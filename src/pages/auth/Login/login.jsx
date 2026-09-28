@@ -73,7 +73,7 @@ export default function Login() {
                   </button>
 
                   <p className="text-center">
-                    New User?<Link to="/register">Login</Link>
+                    New User?<Link to="/register">Register Here</Link>
                   </p>
                 </form>
               </div>
