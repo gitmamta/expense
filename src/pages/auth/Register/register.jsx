@@ -101,7 +101,7 @@ catch(error){
                 value={formik.values.fullName}
               />
               <button type="submit" className="btn btn-primary">
-                Login
+                Register Here
               </button>
             </form>
           </div>
