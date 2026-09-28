@@ -47,7 +47,7 @@ export default function Add() {
       console.log(response);
       formik.resetForm();
       setStatus(false);
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       console.log(error);
     }
