@@ -45,18 +45,18 @@ catch(error){
       <div className="container min-vh-100 d-flex justify-content-center align-items-center">
          <div className="row w-100 justify-content-center">
           <div class="col-md-6">
-        <div className="card">
-          <div className="card-body shadow">
+        <div className="card shadow">
+          <div className="card-body">
            
               
             <form
               onSubmit={formik.handleSubmit}
-              className="d-flex flex-column gap-3"
+              className="d-flex flex-column gap-2"
             >
               <div className="text-center">
               <i className="bi bi-person-plus-fill fs-1 text-primary"></i>
 
-              <h3>Registration</h3>
+              <h3 className="fw-semibold text-dark">Registration</h3>
               </div>
               <label htmlFor="username">username</label>
               <input

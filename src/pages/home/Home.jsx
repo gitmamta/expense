@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <h1 className="fw-bold">Welcome to the Expense Tracker</h1>
+        <h1 className="fw-bold mt-3">Welcome to the Expense Tracker</h1>
         <ul className="d-flex gap-4 list-unstyled">
           <li>
             <Link to="/add" className="btn btn-success px-4">Add</Link>
