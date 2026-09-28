@@ -12,7 +12,7 @@ import Home from "./pages/home/Home.jsx";
 import Login from "./pages/auth/Login/login.jsx";
 import Register from "./pages/auth/Register/register.jsx";
 import Add from "./pages/add/Add.jsx";
-import Update from "./pages/Update/update.jsx";
+import Update from "./pages/update/Update.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import ViewExpense from "./pages/viewExpense/ViewExpense.jsx";
 
