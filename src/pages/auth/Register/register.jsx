@@ -44,7 +44,7 @@ catch(error){
     <>
       <div className="container min-vh-100 d-flex justify-content-center align-items-center">
          <div className="row w-100 justify-content-center">
-          <div class="col-md-6">
+          <div className="col-md-6">
         <div className="card shadow">
           <div className="card-body">
            
@@ -58,7 +58,7 @@ catch(error){
 
               <h3 className="fw-semibold text-dark">Registration</h3>
               </div>
-              <label htmlFor="username">username</label>
+              <label htmlFor="username" className="form-group">username</label>
               <input
                 type="text"
                 id="username"
@@ -68,7 +68,7 @@ catch(error){
                 onChange={formik.handleChange}
                 value={formik.values.username}
               />
-              <label htmlFor="password">password</label>
+              <label htmlFor="password" className="from-group">password</label>
               <input
                 type="password"
                 id="password"
@@ -79,7 +79,7 @@ catch(error){
                 value={formik.values.password}
               />
 
-              <label htmlFor="email">email</label>
+              <label htmlFor="email" className="form-group">email</label>
               <input
                 type="email"
                 id="email"
@@ -90,7 +90,7 @@ catch(error){
                 value={formik.values.email}
               />
 
-              <label htmlFor="fullName">FullName</label>
+              <label htmlFor="fullName" className="form-group">FullName</label>
               <input
                 type="text"
                 id="fullName"

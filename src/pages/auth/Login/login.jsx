@@ -46,7 +46,7 @@ export default function Login() {
                   <i className="bi bi-person-circle fs-1 text-primary"></i>
                   <h3 className="fw-semibold text-dark">Login</h3>
                   </div>
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email" className="form-group">Email</label>
                   <input
                     type="text"
                     id="email"
@@ -57,7 +57,7 @@ export default function Login() {
                     value={formik.values.email}
                   />
 
-                  <label htmlFor="password">Password</label>
+                  <label htmlFor="password" className="form-group">Password</label>
                   <input
                     type="password"
                     id="password"

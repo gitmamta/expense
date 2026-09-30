@@ -76,13 +76,13 @@ export default function ViewExpense() {
                 <td>
                   <button
                     onClick={() => navigate(`/update/${expense._id}`)}
-                    className="btn btn-primary btn-sm me-2"
+                    className="btn btn-primary btn-sm me-2 mb-2"
                   >
                     Edit
                   </button>
                   <button
                     onClick={() => handleDelete(expense._id )}
-                    className="btn btn-primary btn-sm me-2"
+                    className="btn btn-danger btn-sm me-2 mb-2"
                   >
                     Delete
                   </button>
